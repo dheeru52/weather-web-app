@@ -1,0 +1,87 @@
+/* 
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+} */
+/* .container {
+    text-align: center;
+} */
+ /* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #2b55ec; /* Light gray background for the whole page */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding: 20px;
+    background: #e0f7fa; /* Light blue background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 78px rgba(0, 0, 0, 0.6); /* Shadow on all sides */
+    padding: 20px;
+    width: 70%;
+    max-width: 500px;    background-size: cover; /* Cover the entire container */
+    text-align: center;
+    border-radius: 20px;
+    color: #333; /* Text color for better readability */
+}
+
+@keyframes borderAnimation {
+    0% {
+        border-image-source: linear-gradient(45deg, #ff0000, #ff7f00, #ffff00, #7fff00, #00ff00, #00ff7f, #00ffff, #007fff, #0000ff, #7f00ff, #ff00ff, #ff007f);
+    }
+    50% {
+        border-image-source: linear-gradient(45deg, #ff007f, #ff00ff, #7f00ff, #0000ff, #007fff, #00ffff, #00ff7f, #00ff00, #7fff00, #ffff00, #ff7f00, #ff0000);
+    }
+    100% {
+        border-image-source: linear-gradient(45deg, #ff0000, #ff7f00, #ffff00, #7fff00, #00ff00, #00ff7f, #00ffff, #007fff, #0000ff, #7f00ff, #ff00ff, #ff007f);
+    }
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+button {
+    padding: 10px;
+    font-size: 16px;
+}
+.weather-info {
+    margin-top: 20px;
+}
+/* styles.css */
+body {
+    background-color: rgba(135, 206, 250, 1.5); /* Light sky blue with 50% opacity */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    color: blue;
+}
+p {
+    font-size: 18px;
+    color: green;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    input[type="text"],
+    button {
+        font-size: 14px;
+    }
+}
